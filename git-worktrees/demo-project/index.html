@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task Manager — Worktree Demo</title>
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📋 Task Manager</h1>
+      <p class="subtitle">Claude Code Worktree Demo</p>
+      <!-- Agent 1 (feature/dark-mode) will add a toggle button here -->
+    </header>
+
+    <main>
+      <div class="input-row">
+        <input type="text" id="taskInput" placeholder="Add a new task..." />
+        <button id="addBtn">Add Task</button>
+      </div>
+
+      <ul id="taskList"></ul>
+
+      <p id="emptyState" class="empty-state">No tasks yet. Add one above!</p>
+    </main>
+  </div>
+
+  <script src="src/app.js"></script>
+</body>
+</html>
