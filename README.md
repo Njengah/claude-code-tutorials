@@ -13,7 +13,7 @@ Each folder maps to a published article. Clone the repo and jump into any projec
 
 | Folder | Article | Key Concept |
 |--------|---------|-------------|
-| [`git-worktrees/`](./git-worktrees/) | [Run Smooth Parallel Agents with Git Worktrees](#) | `claude --worktree` flag |
+| [`git-worktrees/`](./git-worktrees/) | [Run Smooth Parallel Agents with Git Worktrees](https://medium.com/@joe.njenga/i-tried-new-claude-code-git-worktree-i-now-run-smooth-parallel-agents-8e21627167b7?sk=7e4ec8498f6f49d7f71be4b5db47e58d) | `claude --worktree` flag |
 
 > More added as articles are published.
 
