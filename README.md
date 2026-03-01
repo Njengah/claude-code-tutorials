@@ -1,9 +1,9 @@
-# Claude Code Medium Tutorials
+# Claude Code Tutorials – Feature‑by‑Feature (Chronological Releases)
 
 Collection of demo projects for my [Medium articles](https://medium.com/@joe.njenga) on Claude Code.
 
-The content helps new users discover Claude Code features and quickly learn how to use them and it supplements the [Claude Code Masterclass Newsletter](https://newsletter.claudecodemasterclass.com) 
-which offers indepth guide on mastering Claude Code at professional level. 
+The content helps new users discover Claude Code features and quickly learn how to use them, and it supplements the [Claude Code Masterclass Newsletter](https://newsletter.claudecodemasterclass.com) 
+which offers an in-depth guide on mastering Claude Code at a professional level. 
 
 Each folder maps to a published article. Clone the repo and jump into any project independently.
 
