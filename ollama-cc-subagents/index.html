@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Expense Tracker</h1>
+            <p class="subtitle">Track your spending with ease</p>
+        </header>
+
+        <main class="main-content">
+            <section class="summary-section">
+                <div class="summary-card">
+                    <h2>Total Expenses</h2>
+                    <p class="total-amount" id="totalAmount">$0.00</p>
+                    <p class="expense-count" id="expenseCount">0 expenses</p>
+                </div>
+            </section>
+
+            <section class="form-section">
+                <div class="form-card">
+                    <h2>Add New Expense</h2>
+                    <form id="expenseForm" class="expense-form">
+                        <div class="form-group">
+                            <label for="description">Description</label>
+                            <input
+                                type="text"
+                                id="description"
+                                name="description"
+                                placeholder="Enter expense description"
+                                required
+                            >
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="amount">Amount ($)</label>
+                                <input
+                                    type="number"
+                                    id="amount"
+                                    name="amount"
+                                    placeholder="0.00"
+                                    step="0.01"
+                                    min="0"
+                                    required
+                                >
+                            </div>
+                            <div class="form-group">
+                                <label for="category">Category</label>
+                                <select id="category" name="category" required>
+                                    <option value="" disabled selected>Select category</option>
+                                    <option value="food">Food</option>
+                                    <option value="transport">Transport</option>
+                                    <option value="entertainment">Entertainment</option>
+                                    <option value="shopping">Shopping</option>
+                                    <option value="bills">Bills</option>
+                                    <option value="health">Health</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Date</label>
+                            <input
+                                type="date"
+                                id="date"
+                                name="date"
+                                required
+                            >
+                        </div>
+                        <button type="submit" class="btn btn-primary">Add Expense</button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="filter-section">
+                <div class="filter-card">
+                    <h2>Filter Expenses</h2>
+                    <div class="filter-controls">
+                        <div class="form-group">
+                            <label for="filterCategory">Category</label>
+                            <select id="filterCategory">
+                                <option value="all">All Categories</option>
+                                <option value="food">Food</option>
+                                <option value="transport">Transport</option>
+                                <option value="entertainment">Entertainment</option>
+                                <option value="shopping">Shopping</option>
+                                <option value="bills">Bills</option>
+                                <option value="health">Health</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <button id="clearFilter" class="btn btn-secondary">Clear Filter</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="list-section">
+                <div class="list-card">
+                    <h2>Expenses</h2>
+                    <div id="expenseList" class="expense-list">
+                        <p class="empty-state">No expenses yet. Add your first expense above!</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Connected to API: <span id="apiStatus">Connecting...</span></p>
+        </footer>
+    </div>
+
+    <div id="toast" class="toast"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
