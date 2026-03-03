@@ -16,6 +16,7 @@ Each folder maps to a published article. Clone the repo and jump into any projec
 | 2 | [`memory-md/`](./memory-md/) | [Anthropic Just Added Auto-Memory to Claude Code — MEMORY.md (I Tested It)](https://medium.com/@joe.njenga/anthropic-just-added-auto-memory-to-claude-code-memory-md-i-tested-it-0ab8422754d2) | Feb 27 2026 | auto‑memory feature |
 | 3 | [`simplify-batch/`](./simplify-batch/) | [How I'm Using Claude Code (New) /simplify & /batch (To x10 My Code Reviews)](https://medium.com/@joe.njenga/how-im-using-claude-code-new-simplify-batch-to-x10-my-code-reviews-888780a6a42a) | Feb 28 2026 | `/simplify` + `/batch` workflow |
 | 4 | [`ollama-cc-subagents/`](./ollama-cc-subagents/) | [How I'm Running Claude Code Subagents & Web Search (At No Cost)](https://medium.com/@joe.njenga/how-im-running-claude-code-subagents-web-search-at-no-cost-4cd945d382bd) | Mar 2 2026 | Ollama subagents, parallel task execution, web search |
+| 5 | [`voice/`](./voice/) | [Claude Code Voice Is Here — You Can Now Talk & Stop Typing](https://medium.com/@joe.njenga/claude-code-voice-is-here-voice-you-can-now-talk-stop-typing-43a586f26f56) | Mar 3 2026 | Native `/voice` mode, push-to-talk, hybrid prompts |
 
 > More added as articles are published.
 ---
