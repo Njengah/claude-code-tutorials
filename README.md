@@ -18,6 +18,7 @@ Each folder maps to a published article. Clone the repo and jump into any projec
 | 4 | [`ollama-cc-subagents/`](./ollama-cc-subagents/) | [How I'm Running Claude Code Subagents & Web Search (At No Cost)](https://medium.com/@joe.njenga/how-im-running-claude-code-subagents-web-search-at-no-cost-4cd945d382bd) | Mar 2 2026 | Ollama subagents, parallel task execution, web search |
 | 5 | [`voice/`](./voice/) | [Claude Code Voice Is Here — You Can Now Talk & Stop Typing](https://medium.com/@joe.njenga/claude-code-voice-is-here-voice-you-can-now-talk-stop-typing-43a586f26f56) | Mar 3 2026 | Native `/voice` mode, push-to-talk, hybrid prompts |
 | 6 | [`skill-creator/`](./skill-creator/) | [Anthropic (New) Skill-Creator Measures If Your Agent Skills Work (No More Guesswork)](https://medium.com/@joe.njenga/anthropic-new-skill-creator-measures-if-your-agent-skills-work-no-more-guesswork) | Mar 4 2026 | Skill testing, evals, benchmarks, A/B comparisons |
+| 7 | [`claude-api/`](./claude-api/) | [Claude Code /claude-api (You Can Now Build Claude Apps 3x Faster)](https://medium.com/@joe.njenga/claude-code-claude-api-you-can-now-build-claude-apps-3x-faster) | Mar 5 2026 | `/claude-api` built-in skill, Anthropic SDK reference loading |
 
 > More added as articles are published.
 ---
