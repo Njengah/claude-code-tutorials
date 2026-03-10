@@ -19,6 +19,7 @@ Each folder maps to a published article. Clone the repo and jump into any projec
 | 5 | [`voice/`](./voice/) | [Claude Code Voice Is Here — You Can Now Talk & Stop Typing](https://medium.com/@joe.njenga/claude-code-voice-is-here-voice-you-can-now-talk-stop-typing-43a586f26f56) | Mar 3 2026 | Native `/voice` mode, push-to-talk, hybrid prompts |
 | 6 | [`skill-creator/`](./skill-creator/) | [Anthropic (New) Skill-Creator Measures If Your Agent Skills Work (No More Guesswork)](https://medium.com/@joe.njenga/anthropic-new-skill-creator-measures-if-your-agent-skills-work-no-more-guesswork) | Mar 4 2026 | Skill testing, evals, benchmarks, A/B comparisons |
 | 7 | [`claude-api/`](./claude-api/) | [Claude Code /claude-api (You Can Now Build Claude Apps 3x Faster)](https://medium.com/@joe.njenga/claude-code-claude-api-you-can-now-build-claude-apps-3x-faster) | Mar 5 2026 | `/claude-api` built-in skill, Anthropic SDK reference loading |
+| 8 | [`loop/`](./loop/) | [Claude Code /loop — How I Create New Native Autonomous Loops That Work!](https://medium.com/@joe.njenga/claude-code-loop-how-i-create-new-native-autonomous-loops-that-work) | Mar 9 2026 | Native `/loop` scheduler, recurring tasks, cron-backed loops |
 
 > More added as articles are published.
 ---
