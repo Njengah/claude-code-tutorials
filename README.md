@@ -20,6 +20,7 @@ Each folder maps to a published article. Clone the repo and jump into any projec
 | 6 | [`skill-creator/`](./skill-creator/) | [Anthropic (New) Skill-Creator Measures If Your Agent Skills Work (No More Guesswork)](https://medium.com/@joe.njenga/anthropic-new-skill-creator-measures-if-your-agent-skills-work-no-more-guesswork) | Mar 4 2026 | Skill testing, evals, benchmarks, A/B comparisons |
 | 7 | [`claude-api/`](./claude-api/) | [Claude Code /claude-api (You Can Now Build Claude Apps 3x Faster)](https://medium.com/@joe.njenga/claude-code-claude-api-you-can-now-build-claude-apps-3x-faster) | Mar 5 2026 | `/claude-api` built-in skill, Anthropic SDK reference loading |
 | 8 | [`loop/`](./loop/) | [Claude Code /loop — How I Create New Native Autonomous Loops That Work!](https://medium.com/@joe.njenga/claude-code-loop-how-i-create-new-native-autonomous-loops-that-work) | Mar 9 2026 | Native `/loop` scheduler, recurring tasks, cron-backed loops |
+| 9 | [`btw/`](./btw/) | [I Tried (New) Claude Code /btw Command (Now You Can Chat As You Code)](https://medium.com/@joe.njenga/i-tried-new-claude-code-btw-command-now-you-can-chat-as-you-code) | Mar 11 2026 | `/btw` quick side questions, overlay responses, non-interrupting 
 
 > More added as articles are published.
 ---
