@@ -1,53 +1,71 @@
-# Claude Code Voice: Talk & Stop Typing
+# /voice — Push-to-Talk Coding in Claude Code
 
-Tutorial for the new native Claude Code voice feature.
+> Companion project for the Medium article: **"I Finally Tested Claude Code /voice — It’s Faster than Typing (Don’t Waste Time)"**
 
-## Overview
+---
 
-Claude Code voice is the ultimate feature we have all been waiting for — the ability to use voice input directly within Claude Code using the `/voice` command.
+## What /voice Is
 
-## The Journey
+`/voice` is Claude Code's native push-to-talk mode that lets you speak instructions instead of typing them. Hold the spacebar, talk, release — and your words become code.
 
-I knew the moment had come for us to get more from Claude Code by just talking. My journey trying to make Claude Code work with voice took me down a maze of all the possible options. I even built my own Claude Code voice input, which worked, but with limitations. But the newly built-in Claude Code voice mode will change what it means to be fast and more productive.
+## Why It Helps
 
-## Previous Voice Solutions
+- **Faster than typing** — Dictate complex instructions in seconds (e.g., "build a FastAPI backend with menu and order endpoints").
+- **Accurate transcription** — Handles technical terms like "FastAPI" and "Pydantic" well.
+- **Hybrid workflow** — Use voice for ideas, typing for precision.
+- **No extra setup** — Built-in, no API keys or MCP servers needed.
 
-### VoiceMode MCP (Community-Built)
-The most popular solution was VoiceMode, a community-built MCP server that bridges your microphone and Claude Code.
+---
 
-**Setup:**
+## Setup
+
+`/voice` is available in Claude Code (rolled out to all users as of March 12, 2026).
+
+Just run:
+
 ```bash
-# Install UV if you don't have it
-curl -LsSf https://astral.sh/uv/install.sh | sh
-
-# Install VoiceMode
-uvx voice-mode-install
-
-# Add it to Claude Code
-claude mcp add --scope user voicemode -- uvx --refresh voice-mode
+claude
 ```
 
-**Limitations:**
-- Requires OpenAI API key
-- Additional costs for transcription on top of Claude subscription
-- Not truly integrated into Claude Code
+Then type:
 
-### System Dictation
-The quickest option was turning on your system's built-in dictation:
-- **macOS:** Double-tap Fn and start talking
-- **Windows:** Win + H shortcut
+```bash
+/voice
+```
 
-**Limitations:**
-- Zero setup required, but accuracy was poor
-- Technical terms, variable names, and function names struggled
-- Spent more time correcting than saved by not typing
+---
 
-### Browser Extensions
-Tools like Voicy worked as a speech-to-text layer on top of any text field, including Claude's web interface.
+## Quick Start
 
-**Limitations:**
-- Claude Code runs as a terminal app, not browser
-- Only useful for Claude.ai web interface
+1. Activate voice mode: `/voice`
+2. Hold **Spacebar** and speak your instruction
+3. Release Spacebar — Claude transcribes and executes
+
+Example instruction:
+
+> "Create a FastAPI app with a menu endpoint that returns food items with id, name, price, and description"
+
+Claude generates the code instantly.
+
+---
+
+## Test Project: Food Ordering System
+
+I tested `/voice` by building a complete app:
+
+- **Backend:** FastAPI with menu and order endpoints
+- **Frontend:** Vanilla JS to display menu and place orders
+
+Three voice commands total — from idea to working app in minutes.
+
+---
+
+## Notes
+
+- Speak clearly at a steady pace for best transcription.
+- Shorter, focused commands work better than long rambles.
+- Voice understands intent even with minor transcription errors (e.g., "manual" → "menu").
+- Still type when you need exact precision or code snippets.
 - Every solution was sitting on top, not inside Claude Code
 
 ## Native `/voice` Mode
